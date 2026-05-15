@@ -15,7 +15,7 @@ depends: [
   "basement"
   "dune"     {>= "3.17.0"}
 ]
-available: arch != "arm32" & arch != "x86_32"
+available: arch != "x86_32"
 synopsis: "Sexp type"
 description: "
 The definition of `Sexp.t` and `Sexp_grammar.t`.
