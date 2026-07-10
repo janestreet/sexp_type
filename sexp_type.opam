@@ -16,6 +16,9 @@ depends: [
   "dune"     {>= "3.17.0"}
 ]
 available: arch != "x86_32"
+conflicts: [
+  "oxcaml-compiler" {< "5.2.0minus39"}
+]
 synopsis: "Sexp type"
 description: "
 The definition of `Sexp.t` and `Sexp_grammar.t`.
